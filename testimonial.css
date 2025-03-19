@@ -1,0 +1,39 @@
+.profile-box img{
+    width:100%;
+    height:100%;
+}
+
+.carousel-indicators{
+    bottom:-50px;
+}
+
+.carousel-indicators button{
+    background-color:gray;
+    width:10px;
+    height:12px;
+    border-radius:50%;
+}
+
+.card p{
+    padding-left:10px;
+}
+
+.carousel-item .col-sm-7{
+    background:url(images/images/testimonial/testimonial-bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding-right:30px;
+    padding-top:15px;
+}
+
+.profile-box{
+    background-color:#006666;
+    padding:18px;
+    padding-left:22px;
+    border-radius:5px 0 0 5px;
+}
+
+.profile-box img{
+    border-radius:0 35px 0 35px;
+}

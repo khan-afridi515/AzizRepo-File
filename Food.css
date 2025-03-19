@@ -1,0 +1,755 @@
+*,
+*::after,
+*::before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    
+}
+
+html,body{
+    font-size:10px;
+    font-weight:400px;
+    scroll-behavior: smooth;
+    line-height:1.5;
+   
+}
+
+.about .banner_section,
+.product .banner_section,
+.gallery .banner_section,
+.contact .banner_section
+{
+    background:url(images/images/banner-slide/top-banner.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding-top:17rem;
+    padding-bottom:10rem;
+    min-height:auto;
+}
+
+
+
+
+.navbar-nav{
+    margin-top:8px;
+}
+
+.navbar-nav li{
+    margin:0 7px;
+}
+
+.navbar-nav a{
+    font-size:2rem;
+}
+
+.header-right {
+    font-size:2rem;
+    margin-top:8px;
+}
+
+a:hover,
+a:focus,
+a:active,
+button{
+    text-decoration:none;
+    outline:0;
+}
+
+a:hover{
+    transition:all 0.3s ease-in;
+}
+
+.main-btn{
+    position:relative;
+    color:white;
+    background-color:green;
+    z-index:1;
+    overflow:hidden;
+    border:0.2rem solid white;
+    border-radius:3.5rem;
+    text-transform:uppercase;
+    padding:0.6rem 2.6rem;
+    font-weight:600;
+    font-size:1.8rem;
+    margin-top:0.8rem;
+    letter-spacing:0.2rem
+}
+
+.main-btn:hover{
+    background:white;
+    color:lawngreen;
+    border:0.2rem solid lawngreen;
+}
+
+
+.myheader{
+    position:absolute;
+    top:2rem;
+    width:100%;
+    left:0;
+    z-index:10;
+}
+
+.myheader .navbar{
+    background:url('images/images/header-bg.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding:2rem 5rem;
+}
+
+.navbar-brand img{
+    width:7.5rem;
+    margin-top:-0.5rem;
+}
+
+.navbar .nav-link{
+    color:white;
+    text-transform:uppercase;
+    font-size:1.6rem;
+    font-weight:600;
+    padding:0.5rem 2rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active{
+    color:lawngreen;
+}
+
+.myheader .navbar-toggler{
+    color:white;
+    font-size:2rem;
+    height:2.7rem;
+    padding:0;
+}
+
+
+.header-right span{
+    color:lawngreen;
+    font-size:1.4rem;
+    display:block;
+    font-weight:700;
+    
+}
+
+.header-right .phone{
+    color:white;
+    font-size:1.6rem;
+}
+
+.header-scrolled{
+    position:fixed;
+    top:-1rem;
+    left:0;
+    right:0;
+    width:100%;
+    max-width:1320px;
+    margin: auto;
+    z-index:999;
+    transition:0.3s all ease-in-out;
+}
+
+/*------------banner section -----------------*/
+
+.banner_section{
+    background:url(images/images/banner-slide/Banner-1.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    min-height:90vh;
+}
+
+.banner_section .carousel-item{
+    padding:3rem 0;
+    height:90vh;
+    color:black;
+}
+
+.banner_section .carousel-item .banner-content h1{
+    font-size:5rem;
+    font-weight:700;
+    font-family:sans-serif;
+    color:black;
+    margin-bottom:1.5rem;
+}
+
+.banner_section .carousel-item .banner-content h3{
+    font-size:2.1rem;
+    font-weight:700;
+    color:white;
+    padding:0.5rem 1.5rem;
+    background-color:#006666;
+    display:inline;
+    
+    margin-bottom:1rem;
+}
+ 
+.banner_section .carousel-item .banner-content p{
+    max-width:35rem;
+    margin-top:1.4rem;
+    font-size:1.2rem;
+    font-weight:700;
+    color:black;
+}
+
+.banner_section .carousel-caption{
+    top:30%;
+    bottom:0;
+    left:3%;
+    right:0;
+    text-align:left;
+    width:100%;
+}
+
+.feature-box{
+    padding:7rem 0;
+}
+
+.features-section{
+    margin:7rem 0;
+}
+
+.features-border-icon{
+  
+    border-radius:50%;
+    padding:1.3rem;
+    display:inline-block;
+}
+
+.features-section .features-icons{
+    width:6.7rem;
+    height:6.7rem;
+    background-color:#e0e0d1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    margin:auto;
+}
+
+.features-section .features-icons img{
+    width:3.5rem;
+    height:3.5rem;
+}
+
+.card .content h3{
+    margin-top:1.4rem;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+
+.features-section .feature-box:hover{
+    background-color:#006666;
+    border:2px solid #006666;
+}
+
+.features-section .feature-box:hover h3{
+    color:white;
+}
+
+.features-section .feature-box:hover .features-border-icon{
+    border:1px solid lawngreen;
+}
+
+
+.about-us{
+    background:url(images/images/about/about-banner.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding:4rem 0;
+}
+
+.about-us h1{
+    font-size:3.3rem;
+    margin-bottom:2rem;
+}
+
+.about-us h5{
+    font-size:1.5rem;
+    margin:1rem 0;
+}
+
+.about-us p{
+    font-size:1.3rem;
+}
+
+.about-us .main-btn{
+    margin:2rem 0;
+}
+
+.best-product{
+    margin:8rem 0;
+}
+
+.best-product h2{
+    font-size:3.1rem;
+}
+
+.best-product .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 35rem;
+}
+
+   .best-product .col-lg-3 img{
+    padding-bottom:20px;
+    margin:0 auto;
+}
+
+
+
+.best-product .col-lg-3 .heal{
+    padding-top:65px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.best-product .col-lg-3 .heal p{
+    font-weight:bold;
+    color:lawngreen;
+    font-size:13px;
+}
+
+.best-product .col-lg-3 .heal h3{
+    font-size:18px;
+    font-weight:900;
+    margin-top:-5px;
+}
+
+.best-product .product-card .product-detail{
+    position:absolute;
+    bottom:-22rem;
+    left:0;
+    right:0;
+    text-align:center;
+    padding:5rem 1rem;
+    background-color:#006666;
+    transition:all 0.5s ease;
+    display:none;
+}
+
+.best-product .product-card:hover .product-detail{
+    transition:all 0.5s ease-out;
+    bottom:0;
+    display:block;
+}
+
+
+.profile-box img{
+    width:100%;
+    height:100%;
+}
+
+.carousel-indicators{
+    bottom:-50px;
+    top:315px;
+}
+
+.carousel-indicators button{
+    background-color:gray;
+    width:10px;
+    height:12px;
+    border-radius:50%;
+}
+
+.card p{
+    padding-left:10px;
+}
+
+.carousel-item .col-sm-7{
+    background:url(images/images/testimonial/testimonial-bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding-right:30px;
+    padding-top:15px;
+}
+
+.profile-box{
+    background-color:#006666;
+    padding:18px;
+    padding-left:22px;
+    border-radius:5px 0 0 5px;
+}
+
+.profile-box img{
+    border-radius:0 35px 0 35px;
+}
+
+p{
+    font-size:13px;
+}
+
+.content h4{
+    color:white;
+}
+
+.gallery .lead h2{
+    font-size:27px;
+    font-weight:bold;
+}
+.gallery .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 35rem;
+}
+
+.gallery .card img{
+    width:100%;
+    height:100%;
+}
+
+.gallery .main-btn{
+    margin:0 auto;
+}
+
+.footer{
+    background:url(images/images/footer-bg/footer_bg.png);
+    background-size:cover;
+    background-position:top center;
+    background-repeat:no-repeat;
+    margin-top:100px;
+    padding-top: 15rem;   /* when the background img don't covering ful content then we use padding.*/
+    padding-bottom:0rem;
+    color:white;
+}
+
+.footer ul{
+    list-style:none;
+    font-size:13px;
+}
+
+.footer .form-control{
+ padding:15px 18px;
+ font-size:14px;
+}
+
+.footer .signs{
+    display:flex;
+    flex-direction:row;
+    gap:7px;
+    padding-bottom:5px;
+}
+
+.footer .fab{
+    font-size:19px;
+}
+
+
+.rad{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:1px solid gray;
+    padding:7px 7px;      
+    border-radius:50%;
+    transition:0.3s ease-in-out;
+  
+    
+
+}
+
+.rad:hover{
+    border-color:lawngreen;
+    color:white;
+    background-color:lawngreen;
+    transform:translateY(-0.185rem);
+    transition:0.3s ease-in-out;
+    
+}
+
+.footer li:hover{
+    transition:0.4s ease-in-out;
+    margin-left:7px;
+    color:lawngreen;
+
+}
+
+.copy-footer{
+    background-color:lawngreen;
+   
+}
+
+.copy-footer p{
+    font-size:16px;
+    color:white;
+}
+
+.copy-footer p span{
+    color:black;
+}
+
+/*
+
+
+/*---------------------About Us---------------------------*/
+
+.sslide{
+    background:url(images/images/banner-slide/Banner-1.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding:18rem 15rem 8.5rem 8rem;
+}
+
+.sslide h1{
+    color: #006666;
+    font-weight:bold;
+    font-size:58px;
+    font-family:Bahnschrift Condensed;
+}
+
+
+.movie{
+    font-family:Bahnschrift Condensed;
+    margin:50px 0;
+    margin-bottom:30px;
+}
+
+.movie h2{
+    font-size:40px;
+}
+
+.movie p{
+    font-size:14px;
+    padding:0 300px;
+}
+
+.movie .about-para{
+    padding:0px 0px;
+}
+
+/*----------------------------------product-------------------------------*/
+
+.juices h2{
+    color: #006666;
+    font-weight:bold;
+    font-size:40px;
+    font-family:Bahnschrift Condensed;
+}
+
+.juices .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 32rem;
+}
+
+.juices h1{
+    font-size:33px;
+    color: #006666;
+    padding-bottom:2rem;
+    font-family:Bahnschrift Condensed;
+}
+
+
+
+.juices h3{
+    font-size:25px;
+    color: #006666;
+    padding-bottom:0.9rem;
+    font-family:Bahnschrift Condensed;
+}
+
+.product-para{
+    margin-bottom:3rem;
+}
+
+.tight{
+    margin-top:1.5rem;
+    letter-spacing: 1px;
+    font-size:14px;
+    padding:8px 18px;
+}
+
+
+/*--------------------Gallery-------------------------*/
+
+.limit{
+    width:100%;
+}
+
+
+/*-------------------------contact----------------------------*/
+
+.cont input{
+    font-size:14px;
+}
+
+.contact{
+    background-color:gray;
+}
+
+.contact textarea{
+    width:100%;
+    font-size:14px;
+}
+
+.contact .num p{
+    margin-bottom:0px;
+}
+
+.cal i{
+    font-size:39px;
+}
+
+#an{
+    font-size:14px;
+}
+
+#cal{
+    font-size:20px;
+}
+
+.phone .juma{
+    font-size:45px;
+}
+
+.contact button{
+    padding:5px 18px;
+    letter-spacing: 1px;
+}
+
+
+/*-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+
+
+@media only screen and (max-width:1170px){
+    
+     body, html{
+        font-size:8px;
+    }
+    
+   .myheader .navbar{
+        background-size:cover;
+        padding:1.7rem;
+    }
+    
+    .myheader .navbar-nav{
+        margin-top:2rem;
+    }
+    
+    .myheader .navbar-nav .navbar-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom:1rem;
+    }
+    
+    .myheader .header-right span{
+        padding: 0.2rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width:991px){
+    
+    .movie p{
+    font-size:14px;
+    padding:0 180px;
+}
+    
+.testimonial .lead p, .best-product .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 28rem;
+}
+    .juices .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 28rem;
+}
+    
+    .main-btn{
+    padding:4px 21px;
+    margin-top:10px;
+}
+    
+    body, html{
+        font-size:8px;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    
+    .product-content h1{
+    padding-bottom: 0px;
+}
+    .sitting h1{
+        padding-bottom:0px;
+    }
+    
+    .juices .sitting{
+        display:flex;
+        flex-direction:row-reverse;
+    }
+    
+.movie p{
+    font-size:14px;
+    padding:0 120px;
+}
+    
+.testimonial .lead p, .best-product .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 22rem;
+}
+    .juices .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 22rem;
+}
+    
+    body, html{
+        font-size:8px;
+    }
+    
+    .banner-section{
+        min-height:70vh;
+        
+    }
+    
+    .banner-section .carousel-item{
+        height:70vh;
+    }
+    
+    
+    @media only screen and (max-width:590px){
+        
+        .footer .form-control{
+            width:50%;
+        }
+        body, html{
+            font-size:7px;
+        }
+    }
+    
+    @media only screen and (max-width:480px){
+    .movie p{
+    font-size:14px;
+    padding:0 80px;
+}
+        
+    .testimonial .lead p, .best-product .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 18rem;
+}
+        
+.juices .lead p{
+    font-size:1.7rem;
+    font-family:calibri;
+    padding:0.5rem 18rem;
+}
+    }
+
+
+/*best product*/
+
+/* display-none and block also play important role in best product*/
